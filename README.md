@@ -1,14 +1,8 @@
 # CSON loader for webpack
 
-## Usage
+Uses [cson-safe](https://github.com/groupon/cson-safe) under the hood.
 
-``` javascript
-var contents = require("cson!./file.cson");
-```
-
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
-
-### Recommended configuration
+## Recommended Usage
 
 ``` javascript
 {
@@ -26,8 +20,16 @@ var contents = require("cson!./file.cson");
 and then, as simple as
 
 ``` javascript
-var contents = require("config") # will load config.cson
+var contents = require("config") // will load config.cson
 ```
+
+## Alternate Usage
+
+``` javascript
+var contents = require("cson!./file.cson");
+```
+
+[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ## License
 
