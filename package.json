@@ -2,7 +2,7 @@
   "name": "cson-loader",
   "description": "CSON loader module for webpack",
   "author": "Awnist <hi@awnist.com> (http://awnist.com)",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "./lib/cson-loader",
   "repository": {
     "type": "git",
