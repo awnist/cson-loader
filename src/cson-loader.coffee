@@ -1,5 +1,5 @@
-cson = require 'cson-safe'
+cson = require 'cson-parser'
 
 module.exports = (contents) ->
   @cacheable?()
-  "module.exports = " + cson.stringify cson.parse contents
+  "module.exports = " + JSON.stringify cson.parse contents

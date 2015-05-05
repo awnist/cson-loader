@@ -13,9 +13,9 @@
     "url": "http://unlicense.org/"
   },
   "peerDependencies": {
-    "cson-safe": "0.1.x"
+    "cson-parser": "^1.0.9"
   },
   "scripts": {
-    "prepublish": "coffee -o lib/ -c src/"
+    "prepublish": "coffee -b -o lib/ -c src/"
   }
 }
