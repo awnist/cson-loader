@@ -1,4 +1,4 @@
-cson = require 'cson-safe'
+cson = require 'cson-parser'
 
 module.exports = (contents) ->
   @cacheable?()

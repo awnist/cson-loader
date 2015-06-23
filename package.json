@@ -2,7 +2,7 @@
   "name": "cson-loader",
   "description": "CSON loader module for webpack",
   "author": "Awnist <hi@awnist.com> (http://awnist.com)",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./lib/cson-loader",
   "repository": {
     "type": "git",
@@ -12,10 +12,10 @@
     "type": "Public Domain",
     "url": "http://unlicense.org/"
   },
-  "peerDependencies": {
-    "cson-safe": "0.1.x"
-  },
   "scripts": {
     "prepublish": "coffee -o lib/ -c src/"
+  },
+  "dependencies": {
+    "cson-parser": "^1.1.1"
   }
 }
